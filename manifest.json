@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "ARC Tester Scraper",
+    "version": "1.0",
+    "description": "Scrapes data from ARC Tester and displays it on the page.",
+    "permissions": ["storage"],
+    "host_permissions": [
+      "http://10.2.250.*/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["http://10.2.250.*/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
