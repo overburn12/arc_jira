@@ -5,11 +5,11 @@
     "description": "Scrapes data from ARC Tester and displays it on the page.",
     "permissions": ["storage"],
     "host_permissions": [
-      "http://10.2.250.*/*"
+      "http://10.2.250.17/"
     ],
     "content_scripts": [
       {
-        "matches": ["http://10.2.250.*/*"],
+        "matches": ["http://10.2.250.17/"],
         "js": ["content.js"],
         "run_at": "document_idle"
       }
