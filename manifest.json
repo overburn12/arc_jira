@@ -3,7 +3,7 @@
     "name": "ARC Tester Scraper",
     "version": "1.0",
     "description": "Scrapes data from ARC Tester and displays it on the page.",
-    "permissions": ["storage"],
+    "permissions": ["storage", "clipboardWrite"],
     "host_permissions": [
       "http://10.2.250.17/"
     ],
