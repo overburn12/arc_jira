@@ -49,7 +49,7 @@
     const FLASK_HOST = 'http://10.2.250.52:80';
 
     function sendBoardDataToFlask(data) {
-        fetch(`${FLASK_HOST}/update_board`, {
+        fetch(`${FLASK_HOST}/api/update_board`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
